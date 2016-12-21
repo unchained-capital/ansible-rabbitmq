@@ -2,5 +2,5 @@
 # vars file for rabbitmq
 
 rabbitmq_url: https://www.rabbitmq.com/releases/rabbitmq-server/v{{ rabbitmq_version }}/rabbitmq-server_{{ rabbitmq_version }}-1_all.deb
-rabbitmq_download_dir: /root
+rabbitmq_download_dir: /usr/local/src
 rabbitmq_service_name: rabbitmq-server
